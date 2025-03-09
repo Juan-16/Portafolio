@@ -1,0 +1,90 @@
+
+
+.colorBody{
+    background-color: #dfe3e6;
+    background: #000000f1;
+}
+
+
+.colorText .nav-link {
+    color: #dfe3e6 !important;
+}
+
+.colorTextvar{
+    color: #0d9282!important;
+    font-weight: bolder;
+}
+
+.imgRound{
+    border-radius: 50%;
+}
+
+.colorQ{
+    color: #0d9282!important;
+    font-weight: bolder;
+}
+
+.colorH{
+    color: #08997a!important;
+}
+.P1 {
+    background-image: url('imgPort/pixelcut-export1.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    padding-bottom: 200px; /* Espacio extra si necesitas más separación */
+}
+
+/* Aplica la sombra solo a .P1 */
+.P1 {
+    position: relative; /* Necesario para limitar el alcance de ::before */
+    z-index: 0; /* Asegura que el contenido se superponga al pseudo-elemento */
+}
+
+.P1::before {
+    content: ""; 
+    position: absolute; /* Cambiado de fixed a absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76); /* Sombra oscura */
+    z-index: -1; /* Envía la sombra detrás del contenido */
+    pointer-events: none; /* Permite interactuar con el contenido */
+}
+
+
+
+.P2 {
+    background-color: transparent; /* Fondo normal */
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.animat{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.cardProyect{
+    max-width: 400px; /* Limita el ancho en pantallas grandes */
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #161616, #201f1f);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    width: 400px;
+    gap: 20px;
+    box-shadow: 0 0 5px 5px #03493ade ;
+   
+}

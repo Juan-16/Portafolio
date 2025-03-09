@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylePortafolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="colorBody">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<!--menu-->
+ <div class="P1">
+  <nav class="navbar navbar-expand-lg colorNav mb-5" style="margin-bottom: 100px;">
+    <div class="container-fluid">
+      <!-- Logo y Nombre -->
+      <a class="navbar-brand colorTextvar me-5" href="#" style="margin-left: 70px;">
+        Juan Pablo
+      </a>
+      
+      <!-- Menú Hamburguesa alineado a la derecha -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ms-auto d-flex align-items-end colorText">
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#Proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item me-3">
+            <button class="btn btn-outline-success" type="button" onclick="location.href='contactme.html'">Contact me</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div style="height: 25px;"></div>
+  
+  <!--imagen y presentacion-->
+  <div class="container-fluid px-4 mt-5">
+    <div class="row align-items-center text-center text-md-start">
+      <!-- Texto -->
+      <div class="col-md-auto mx-auto">
+        <p class="text-secondary mb-1">Hi there!</p>
+        <h1 class="mb-3 colorQ">I am Developer</h1>
+        <p class="text-secondary mb-2">Convierto la complejidad en eficiencia</p>
+      </div>
+  
+      <!-- Imagen -->
+      <div class="col-md-auto mx-auto mt-4 mt-md-0">
+        <img src="imgPort/pixelcut-export (1).jpg" class="img-fluid imgRound" style="width: 300px; height: 330px;" alt="...">
+      </div>
+    </div>
+  </div>
+ </div>
+
+<div class="P2">
+ 
+  <section id="aboutme"> 
+    <div class="container-lg my-5 py-5 animat">
+    <div class ="row">
+      <div class="col-auto mt-5">
+          <h1 class="colorQ mb-5">About Me</h1>
+          <p class="text-secondary mt-5" >
+            ¡Hola! Soy Juan Pablo tengo 17 años, estudiante de tercer semestre en la Universidad EIA de Antioquia. Siempre me ha fascinado el mundo de la tecnología y el desarrollo de software, lo que me ha llevado a trabajar con Java, C++, HTML y CSS. También me interesa seguir explorando nuevas tecnologías para ampliar mis conocimientos.
+            Estoy en constante aprendizaje y abierto a nuevas oportunidades de desarrollo. ¡Siempre dispuesto a asumir nuevos desafíos!
+          </p>
+      </div>
+</div>
+</div></section>
+  
+
+<section id="hobbies">
+  <div class="container-lg mt-5 mb-5 py-5 animat">
+    <h1 class="text-center colorQ">Hobbies</h1>
+    
+    <div class="row justify-content-center align-items-center mt-4">
+      <div class="col-12 col-md-4 text-center mt-3">
+        <img src="imgPort/arco.jpg" class="img-fluid imgRound" style="width: 200px; height: 200px;" alt="...">
+        <h2 class="colorH mt-2">Tiro al arco</h2>
+      </div>
+
+      <div class="col-12 col-md-4 text-center mt-3">
+        <img src="imgPort/videojuegos.jpg" class="img-fluid imgRound" style="width: 200px; height: 200px;" alt="...">
+        <h2 class="colorH mt-2">Videojuegos</h2>
+      </div>
+
+      <div class="col-12 col-md-4 text-center mt-3">
+        <img src="imgPort/leer.jpg" class="img-fluid imgRound" style="width: 200px; height: 200px;" alt="...">
+        <h2 class="colorH mt-2">Lectura</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container-lg mt-5 mb-5 py-5 animat">
+  <section id="Proyectos">
+    <div class="row justify-content-center align-items-center">
+      <div class="container-fluid py-1 mt-5 my-5">
+        <h1 class="text-center colorQ">Proyectos Futuros</h1>
+      </div>
+      
+      <div class="row justify-content-center g-4 my-5">
+        <div class="col-12 col-md-5 d-flex justify-content-center">
+          <div class="cardProyect w-100 mx-auto p-4">
+            <h3>Juego de plataformas</h3>
+            <p>Planeo desarrollar un juego de plataformas 2D en Unity.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 d-flex justify-content-center">
+          <div class="cardProyect w-100 mx-auto p-4">
+            <h3>Automatización de hotel</h3>
+            <p>Planeo hacer un programa que automatice un hotel, desde sus servicios hasta las reservaciones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+<section id="Skills">
+  <div class="container-lg mt-5 my-5 py-5 animat">
+    <div><h1 class="text-center colorQ mt-5 py-5">Skills</h1></div>
+    <div class="row text-center justify-content-center align-items-center g-3">
+        <div class="col-auto">
+            <img src="imgPort/hmtl-logo.png" class="img-fluid" alt="HTML" style="width: 150px; height: 75px;">
+        </div>
+        <div class="col-auto">
+            <img src="imgPort/css-logo.png" class="img-fluid" alt="CSS" style="width: 200px; height: 100px;">
+        </div>
+        <div class="col-auto">
+            <img src="imgPort/ts-logo.png" class="img-fluid" alt="TypeScript" style="width: 200px; height: 100px;">
+        </div>
+        <div class="col-auto">
+            <img src="imgPort/c-.png" class="img-fluid" alt="C++" style="width: 100px; height: 100px;">
+        </div>
+        <div class="col-auto">
+            <img src="imgPort/icon-bootstraap.png" class="img-fluid" alt="Bootstrap" style="width: 150px; height: 150px;">
+        </div>
+    </div>
+</div>
+
+</section>
+
+  </div>
+</body>
+</html>
